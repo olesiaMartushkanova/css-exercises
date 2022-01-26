@@ -1,0 +1,48 @@
+.box {
+  background-color: aqua;
+  width: 100px;
+  height: 100px;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  position: relative;
+
+  /* To rotate: the simplest*/
+  /* transform: rotate(0.25turn); */
+
+  /* Same as just normal rotate */
+  /* transform: rotateZ(0.23turn); */
+
+  /* Scale */
+  /* If I pass 2 values: it's X and Y */
+  /* transform: scale(0.5); */
+
+  /* Translate: to move element back and forward */
+  /* First value is X / Second value is Y */
+  /* transform: translate(30px, -40px); */
+
+  /* Same as translateX -> moves to the right*/
+  /* transform: translate(30px); */
+
+  /* Moves to the left */
+  /* transform: translate(-30px); */
+
+  /* Moves Down */
+  /* transform: translateY(30px); */
+
+  /* Negative number: moves up */
+  /* transform: translateY(-30px); */
+
+  /* transform: translate(100%); */
+}
+
+.box::after {
+  content: 'After';
+  background-color: red;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%);
+}
