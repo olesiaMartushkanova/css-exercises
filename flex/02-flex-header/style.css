@@ -27,6 +27,7 @@ a {
 /* My Solution: Wide */
 body {
   margin: 0;
+  padding: 0;
 }
 
 .logo {
@@ -34,13 +35,11 @@ body {
   justify-content: center;
   align-items: center;
   height: 35px;
-  margin-top: 10px;
 }
 
 ul {
   width: 75%;
   height: 35px;
-  margin-top: 18px;
 }
 
 .left-links ul {
@@ -62,6 +61,10 @@ ul {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
   width: 150%;
-  height: 60px;
+  height: 100px;
+
+  /* Narrow */
+  /* height: 60px; */
 }
