@@ -55,10 +55,10 @@ ul {
   justify-content: space-between;
   padding: 8px;
 }
+
 .links {
   display: flex;
   flex-direction: row;
-  align-content: center;
   gap: 10px;
 }
 
@@ -75,4 +75,5 @@ ul {
   flex-direction: row;
   justify-content: space-between;
   align-content: flex-start;
+  gap: 10px;
 }
