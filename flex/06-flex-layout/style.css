@@ -45,7 +45,7 @@ body {
 
 a {
   text-decoration: none;
-  color: black;
+  color: #666;
 }
 
 .right-links {
@@ -58,9 +58,10 @@ button {
 
 .content {
   display: flex;
+  flex: 1;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
-  margin-top: 100px;
 }
 
 .footer {

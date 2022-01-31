@@ -27,7 +27,6 @@ input {
 }
 
 /* SOLUTION */
-
 body {
   display: flex;
   flex-direction: column;
@@ -66,5 +65,5 @@ ul {
   list-style: none;
   margin: 0;
   padding: 0;
-  gap: 16px
+  gap: 16px;
 }
