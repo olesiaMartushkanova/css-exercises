@@ -66,22 +66,19 @@ ul {
 .content-container {
   display: flex;
   flex: 1;
-  justify-content: space-evenly;
 }
 
 .cards-container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
   gap: 10px;
   margin: 30px;
 }
 
 .footer {
-  flex: 0;
-  text-align: center;
-  margin-top: auto;
-  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   font-weight: bold;
 }
 
