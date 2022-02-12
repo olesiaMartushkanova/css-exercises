@@ -107,15 +107,19 @@
 /* My Solution */
 .container {
   display: grid;
-  grid-template-columns: minmax(10px, 1fr) minmax(10px, 3fr);
-  gap: 20px;
+  grid-template-columns: 1fr 4fr;
+  gap: 4px;
 }
 
 .header {
   grid-column: 1 / -1;
   display: grid;
-  grid-template-columns: minmax(10px, 1fr) minmax(10px, 3fr);
+  grid-template-columns: 1fr 2fr;
   align-items: center;
+}
+
+.logo {
+  justify-self: start;
 }
 
 li {
@@ -135,7 +139,7 @@ li {
 .sidebar {
   display: grid;
   gap: 30px;
-  grid-template-rows: repeat(4, 1fr);
+  grid-row: 2 / 4;
 }
 
 .footer {
@@ -143,13 +147,14 @@ li {
 }
 
 .article {
-  grid-template-columns: repeat(3, calc(100% / 3));
-  gap: 10px;
   display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-rows: repeat(2, 1fr);
+  gap: 15px;
 }
 
 .card {
-  height: 150px;
+  height: 200px;
 }
 
 .sidebar {
